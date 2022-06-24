@@ -46,11 +46,8 @@ const Home: React.FC = () => {
           <div className="mt-2">
             <Button
               variant="outlined"
-              onClick={() => {
-                window.open('/rc', '_blank', 'width=300, height=400')
-              }}
             >
-              独立遥控器
+             遥控器
             </Button>
           </div>
         </div>

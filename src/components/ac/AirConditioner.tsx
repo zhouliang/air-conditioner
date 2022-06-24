@@ -74,12 +74,6 @@ const AcDisplay = React.forwardRef((props: { mode: AcMode }, ref) => {
 const AcLogo: React.FC = () => {
   return (
     <div className="text-center mt-28">
-      <a
-        href={pkg.repository.url}
-        title={pkg.description}
-        target="_blank"
-        rel="noreferrer noopener"
-      >
         <img
           className="m-auto"
           style={{
@@ -88,7 +82,6 @@ const AcLogo: React.FC = () => {
           src="/yun-logo.svg"
           alt="logo"
         />
-      </a>
     </div>
   )
 }

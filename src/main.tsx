@@ -13,10 +13,10 @@ import reportWebVitals from './reportWebVitals'
 import { AcProvider, ComposeContext } from './context'
 import { ToastProvider } from './context/toast'
 
-const tagManagerArgs = {
-  gtmId: 'GTM-NFMC9GL',
-}
-TagManager.initialize(tagManagerArgs)
+//const tagManagerArgs = {
+//  gtmId: 'GTM-NFMC9GL',
+//}
+//TagManager.initialize(tagManagerArgs)
 
 ReactDOM.render(
   <React.StrictMode>

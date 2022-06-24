@@ -105,11 +105,6 @@ export const EnergyLabel: React.FC<{ titleLength: number }> = () => {
  */
 export function EnergySavingLabel() {
   return (
-    <a
-      className="adsense-link"
-      href="https://sponsors.yunyoujun.cn"
-      target="_blank" rel="noreferrer"
-    >
       <div className="energy-saving-label">
         <div className="energy-saving-label_bg">
           <span className="energy-saving-label_title">
@@ -134,6 +129,5 @@ export function EnergySavingLabel() {
           </span>
         </div>
       </div>
-    </a>
   )
 }
